@@ -1,6 +1,6 @@
 
 def my_each(array)
-   yield array
+   yield 
    return array
 end
 
