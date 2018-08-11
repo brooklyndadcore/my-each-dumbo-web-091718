@@ -1,10 +1,9 @@
-
-def my_each(array)
-   yield array
-   return array
-end
-
-my_each do |i|
-  p i
-end
+def my_each(words)
+    len = words.length
+    i = 0
+   until i == len do
+    yield words[i]
+    i+=1
+  end
+  words
 
