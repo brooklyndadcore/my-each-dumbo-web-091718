@@ -9,6 +9,6 @@ my_each(array) do |i|
   while i < array.length
     p array[i]
     i +=1
-end
+  end
 end
 
