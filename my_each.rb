@@ -1,10 +1,14 @@
 
-def my_each
-   yield
+def my_each(array)
+   yield array
+   return array
 end
 
 my_each(array) do |i|
-  p i
-  return array
+  i = 0
+  while i < array.length
+    p array[i]
+    i +=1
+end
 end
 
