@@ -6,6 +6,5 @@ end
 
 my_each do |i|
   p i
-  end
 end
 
