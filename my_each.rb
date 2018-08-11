@@ -4,7 +4,7 @@ def my_each(array)
    return array
 end
 
-my_each(array) do |i|
+my_each do |i|
   p i
   end
 end
